@@ -1,0 +1,10 @@
+integration:
+  user:
+    login: https://api-sport-events.php6-02.test.voxteneo.com/api/v1/users/login
+    create: https://api-sport-events.php6-02.test.voxteneo.com/api/v1/users
+  organizers: https://api-sport-events.php6-02.test.voxteneo.com/api/v1/organizers
+
+spring:
+  session:
+    timeout:
+      seconds: 900
